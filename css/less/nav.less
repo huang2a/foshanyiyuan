@@ -2,9 +2,11 @@
     height:56px;
     background: #fff;
     position: relative;
-    z-index: 9999;
+    z-index: 9;
     .est-layout-page(100%);
     .box-shadow(0 0 5px rgba(0, 0, 0, 0.5));
+    border:#ddd solid 1px\0;
+    _border:#ddd solid 1px;
 }
 .u-nav{
     .est-layout-page(1000px);
@@ -28,6 +30,16 @@
 }
 .l-secondary-nav{
     padding:10px;
+    .l-left{
+        border:#ddd solid 1px\0;
+        _border:#ddd solid 1px;
+        _width: 500px;
+    }
+    .l-right{
+        border:#ddd solid 1px\0;
+        _width: 470px;
+        _border:#ddd solid 1px;
+    }
     ul{
         display: block;
         height:41px;
@@ -42,6 +54,7 @@
             padding: 0 6px;
             color: #7DA70D;
             .centered-line(41px);
+            .hover-link();
         }
     }
 }

@@ -25,10 +25,23 @@ $(function() {
             speed: 500,
             showNum: 1,
             stepLen: 1,
-            prevElement: $('#u-prev'),
-            nextElement: $('#u-next')
+            prevElement: $('#u-next'),
+            nextElement: $('#u-prev')
         });
     });
+// marquee
+$(function() {
+    $('#expert-marquee').marquee({
+      auto: true,
+      interval: 5000,
+      speed: 500,
+      showNum: 3,
+      stepLen: 1,
+      type: 'vertical',
+      prevElement: $('#expert-next'),
+      nextElement: $('#expert-prev')
+    });
+  });
 // tab
 $(function() {
   function tabs(tabTit, on, tabCon) {
@@ -46,16 +59,7 @@ $(function() {
   }
   tabs(".tab-hd-h", "active", ".tab-bd-h");
 });
-// marquee
-$(function() {
-    $('#shoplist3-marquee1,#shoplist3-marquee2,#shoplist3-marquee3,#shoplist3-marquee4,#shoplist3-marquee5,#shoplist3-marquee6').marquee({
-      auto: true,
-      interval: 2000,
-      showNum: 3,
-      stepLen: 3,
-      type: 'vertical'
-    });
-  });
+
 // tip
 $('.shop-tip,.f-concern-on').poshytip({
   className: 'tip-twitter',
