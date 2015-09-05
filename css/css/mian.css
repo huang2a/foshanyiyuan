@@ -818,7 +818,7 @@ textarea:-ms-input-placeholder {
   width: 182px;
   padding-left: 6px;
 }
-.l-column2-list1 .f-title {
+.f-title {
   font-size: 18px;
   font-weight: 500;
   color: #333;
@@ -828,14 +828,14 @@ textarea:-ms-input-placeholder {
   text-indent: 14px;
   overflow: hidden;
 }
-.l-column2-list1 .f-basic {
+.f-basic {
   font-size: 12px;
   font-weight: 500;
   color: #7DA70D;
   height: 28px;
   line-height: 28px;
 }
-.l-column2-list1 .f-abstract {
+.f-abstract {
   padding: 4px 0;
   font-size: 14px;
   text-indent: 24px;
@@ -866,6 +866,52 @@ textarea:-ms-input-placeholder {
   padding: 0 12px;
   background: #fff;
   overflow: hidden;
+}
+.l-mian-column1 {
+  height: 564px;
+  margin-bottom: 14px;
+  overflow: hidden;
+  width: 1000px;
+  margin-right: auto;
+  margin-left: auto;
+}
+.l-mian-column2 {
+  height: 422px;
+  margin-bottom: 14px;
+  width: 1000px;
+  margin-right: auto;
+  margin-left: auto;
+}
+.l-mian-column3 {
+  height: 360px;
+  margin-bottom: 14px;
+  overflow: hidden;
+  width: 1000px;
+  margin-right: auto;
+  margin-left: auto;
+}
+.l-mian-column4 {
+  min-height: 130px;
+  margin-bottom: 14px;
+  overflow: hidden;
+  background: #fff;
+  width: 1000px;
+  margin-right: auto;
+  margin-left: auto;
+}
+.l-mian-keshi,
+.l-mian-qianyan {
+  width: 470px;
+  height: 360px;
+  padding: 0 12px;
+  background: #fff;
+}
+.l-column3-list1 {
+  padding: 14px 0;
+}
+.l-column3-list1 .u-list1-info {
+  width: 320px;
+  padding-left: 6px;
 }
 .l-column1-sidebar {
   width: 245px;
