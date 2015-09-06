@@ -60,25 +60,19 @@ $(function() {
   tabs(".tab-hd-h", "active", ".tab-bd-h");
 });
 
-// tip
-$('.shop-tip,.f-concern-on').poshytip({
-  className: 'tip-twitter',
-  showTimeout: 100,
-  showOn: 'hover',
-  alignTo: 'target',
-  alignX: 'center',
-  offsetY: 5,
-  // allowTipHover: false,
-  // fade: false,
-  // slide: false
-});
-// form tip
-$('.register-second-tip').poshytip({
-  className: 'tip-twitter',
-  showOn: 'focus',
-  alignTo: 'target',
-  alignX: 'right',
-  alignY: 'center',
-  offsetX: 12,
-  showTimeout: 100
+$(document).ready(function(){
+    var k=!0;
+
+    $(".loginmask").css("opacity",0.4);
+    if($.browser.version <= 6){
+        $('#reg_setp,.loginmask').height($(document).height());
+    }
+
+    $(".thirdlogin ul li:odd").css({marginRight:0});
+    $(".openlogin").click(function(){
+        k&&"0px"!=$("#loginalert").css("top")&& ($("#loginalert").show(),$(".loginmask").fadeIn(500),$("#loginalert").animate({top:"50%"},400,"easeOutQuart"))
+    });
+    $(".loginmask,.closealert").click(function(){
+        k&&(k=!1,$("#loginalert").animate({top:-600},400,"easeOutQuart",function(){$("#loginalert").hide();k=!0}),$(".loginmask").fadeOut(500))
+    });
 });
