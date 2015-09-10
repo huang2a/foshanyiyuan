@@ -405,7 +405,7 @@ textarea:-ms-input-placeholder {
   font-size: 18px;
 }
 .fontz16 {
-  font-size: 14px;
+  font-size: 16px;
 }
 .fontz14 {
   font-size: 14px;
@@ -2314,4 +2314,125 @@ textarea:-ms-input-placeholder {
 }
 .l-hotfeatures-newest .newest3 li a:hover {
   color: #7DA70D;
+}
+.register {
+  padding: 0px 12px;
+}
+.register table tr {
+  height: 50px;
+  line-height: 50px;
+}
+.register table tr td span {
+  display: inline-block;
+  width: 125px;
+  font-size: 18px;
+  color: #8c8b8b;
+}
+.register table tr td input {
+  display: inline-block;
+  vertical-align: middle;
+  width: 300px;
+  height: 30px;
+  line-height: 30px;
+  border: 1px solid #7ea70d;
+  font-size: 12px;
+  padding-left: 10px;
+  color: #8c8b8b;
+}
+.register table tr td em {
+  margin: 0px 3px;
+  font-style: normal !important;
+}
+.gender input {
+  width: 14px !important;
+  height: 14px !important;
+  border: none !important;
+}
+.gender label {
+  margin-right: 85px;
+  font-size: 18px;
+  color: #8c8b8b;
+}
+.deal {
+  text-align: center;
+  height: 24px;
+  line-height: 24px;
+}
+.deal input {
+  width: 14px !important;
+  height: 14px !important;
+  border: none !important;
+  margin-right: 10px;
+}
+.confirm {
+  display: block;
+  width: 200px !important;
+  height: 34px !important;
+  background: #98b93d;
+  border: none;
+  text-align: center;
+  margin: 0px 400px;
+  font-size: 16px !important;
+  color: #ffffff !important;
+}
+/*forget-key*/
+.forgerkey {
+  display: block;
+  width: 500px;
+  height: 256px;
+  margin: 50px auto;
+}
+.forgerkey table tr {
+  display: block;
+  height: 50px;
+  line-height: 50px;
+}
+.forgerkey table tr td {
+  width: 500px;
+}
+.forgerkey table tr td span {
+  display: inline-block;
+  width: 125px;
+  font-size: 18px;
+  color: #8c8b8b;
+}
+.forgerkey table tr td input {
+  display: inline-block;
+  vertical-align: middle;
+  width: 300px;
+  height: 30px;
+  line-height: 30px;
+  border: 1px solid #7ea70d;
+  font-size: 12px;
+  padding-left: 10px;
+  color: #8c8b8b;
+}
+.forgerkey table tr td .indentify {
+  height: 50px;
+  line-height: 50px;
+}
+.forgerkey table tr td .indentify span {
+  margin-left: 20px;
+  height: 34px;
+  display: inline-block;
+  vertical-align: middle;
+}
+.forgerkey table tr td .indentify input {
+  width: 270px !important;
+}
+.next {
+  display: block;
+  width: 200px !important;
+  height: 34px !important;
+  background: #98b93d;
+  border: none;
+  text-align: center;
+  margin: 0px 150px;
+  font-size: 16px !important;
+  color: #ffffff !important;
+}
+.foundkey {
+  display: block;
+  height: 110px;
+  line-height: 110px;
 }
