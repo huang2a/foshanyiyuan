@@ -8,6 +8,12 @@
 	background: #fff;
 	overflow: hidden;
 	.box-shadow(0 0 3px rgba(0, 0, 0, 0.3));
+	&:hover .u-prev{
+		background: url(../../images/icon-prev.png) rgba(0, 0, 0, 0.5) left center no-repeat;
+	}
+	&:hover .u-next{
+		background: url(../../images/icon-next.png) rgba(0, 0, 0, 0.5) left center no-repeat;
+	}
 	.u-prev{
 		position: absolute;
 		top: 110px;
@@ -33,11 +39,14 @@
 		float: left;
 		p{
 			display: block;
+			width: 437px;
 			height: 60px;
+			line-height: 18px;
 			padding: 5px;
-			text-align: center;
+			text-align: left;
 			color: #d5d5d5;
 			background: #2d2d2d;
+			.ellipsis(3);
 		}
 	}
 

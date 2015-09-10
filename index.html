@@ -84,13 +84,13 @@
             <div class="u-nav l-float">
                 <ul>
                     <li><a class="active" href="index.html">首页</a></li>
-                    <li><a href="">新闻</a></li>
-                    <li><a href="">医院概况</a></li>
-                    <li><a href="">就医导诊</a></li>
-                    <li><a href="">科室主页</a></li>
-                    <li><a href="">专家介绍</a></li>
-                    <li><a href="">健康教育</a></li>
-                    <li><a href="">热点专题</a></li>
+                    <li><a href="news.html">新闻</a></li>
+                    <li><a href="overview.html">医院概况</a></li>
+                    <li><a href="seeingdoctor.html">就医导诊</a></li>
+                    <li><a href="departments.html">科室主页</a></li>
+                    <li><a href="expert.html">专家介绍</a></li>
+                    <li><a href="education.html">健康教育</a></li>
+                    <li><a href="hotfeatures.html">热点专题</a></li>
                 </ul>
             </div>
     </div>
@@ -133,10 +133,6 @@
                             <h2>健康体检</h2>
                             <p>查询体检结果</p>
                         </a></li>
-                    <li class="sidebar4"><a href="">
-                            <h2>患者服务</h2>
-                            <p>为患者提供在线服务 </p>
-                        </a></li>
                     <li class="sidebar5"><a href="">
                             <h2>健康讲坛</h2>
                             <p>健康知识普及</p>
@@ -145,6 +141,10 @@
                             <h2>医院信箱</h2>
                             <p>登录院内邮箱</p>
                         </a></li>
+                    <li class="sidebar4"><a href="">
+                        <h2>器官捐献</h2>
+                        <p>生命的另一种延续方式 </p>
+                    </a></li>
                 </ul>
             </div>
             <div class="l-left l-column1-right">
@@ -153,14 +153,14 @@
                         <ul>
                             <li>
                                 <a href=""><img src="word/banner01.jpg" height="234" width="447" alt=""></a>
-                                <p>120813市一医院“智慧医疗”助推服务行动持续升级1</p>
+                                <p>一医院“智慧医疗”助推服务行动持续升市一医院“智慧医疗”助推服务行动持续升级1</p>
                             </li>
                             <li>
                                 <a href=""><img src="word/banner01.jpg" height="234" width="447" alt=""></a>
-                                <p>120813市一医院“智慧医疗”助推服务行动持续升级2</p></li>
+                                <p>一医院“智慧医疗”助推服务行动持续升慧医疗”助推服务行动持续升级2</p></li>
                             <li>
                                 <a href=""><img src="word/banner01.jpg" height="234" width="447" alt=""></a>
-                                <p>120813市一医院“智慧医疗”助推服务行动持续升级3</p>
+                                <p>一医院“智慧医疗”助推服务行动持续升一医院“智慧医疗”助推服务行动持续升市一医院“智慧医疗”助推服务行动持续升级3</p>
                             </li>
                         </ul>
                     </div>
@@ -721,10 +721,64 @@
         </div>
     </div>
 </div><!--loginalert end-->
+<SCRIPT language="JavaScript">
+lastScrollY = 0;
+function heartBeat(){
+var diffY;
+if (document.documentElement && document.documentElement.scrollTop)
+diffY = document.documentElement.scrollTop;
+else if (document.body)
+diffY = document.body.scrollTop
+else
+{/*Netscape stuff*/}
+//alert(diffY);
+percent=.1*(diffY-lastScrollY);
+if(percent>0)percent=Math.ceil(percent);
+else percent=Math.floor(percent);
+document.getElementById("leftDiv").style.top = parseInt(document.getElementById("leftDiv").style.top)+percent+"px";
+document.getElementById("rightDiv").style.top = parseInt(document.getElementById("rightDiv").style.top)+percent+"px";
+lastScrollY=lastScrollY+percent;
+//alert(lastScrollY);
+}
+//下面这段删除后，对联将不跟随屏幕而移动。
+window.setInterval("heartBeat()",1);
+//-->
+//关闭按钮
+
+function close_left2(){
+    left2.style.visibility='hidden';
+}
+function close_right2(){
+    right2.style.visibility='hidden';
+}
+//显示样式
+document.writeln("<style type=\"text\/css\">");
+document.writeln("#leftDiv,#rightDiv{width:100px;height:auto;position:absolute;z-index:9999}");
+document.writeln(".itemFloat{width:100px;height:auto;line-height:5px}");
+document.writeln("<\/style>");
+//以下为主要内容
+document.writeln("<div id=\"leftDiv\" style=\"top:180px;left:5px\">");
+//------左侧各块开始
+//---L2
+document.writeln("<div id=\"left2\" class=\"itemFloat\">");
+document.writeln("<a target=_blank href=http://www.dome.com/><img border=0 src=images/duilian.jpg></a>");
+document.writeln("<a style=\"background: #7DA70D;color: #fff;text-align: center;font-size: 16px;display: block;height: 20px;line-height: 20px;\" href=\"javascript:close_left2();\" title=\"关闭上面的广告\">关闭广告<\/a>");
+document.writeln("<\/div>");
+//------左侧各块结束
+document.writeln("<\/div>");
+document.writeln("<div id=\"rightDiv\" style=\"top:180px;right:5px\">");
+//------右侧各块结束
+//---R2
+document.writeln("<div id=\"right2\" class=\"itemFloat\">");
+document.writeln("<a target=_blank href=http://www.dome.com/><img border=0 src=images/duilian.jpg></a>");
+document.writeln("<a style=\"background: #7DA70D;color: #fff;text-align: center;font-size: 16px;display: block;height: 20px;line-height: 20px;\" href=\"javascript:close_right2();\" title=\"关闭上面的广告\">关闭广告<\/a>");
+document.writeln("<\/div>");
+//------右侧各块结束
+document.writeln("<\/div>");
+</SCRIPT>
 </body>
 <script src="js/jquery.min.js" type="text/javascript" charset="utf-8"></script>
 <script src="js/marquee.js" type="text/javascript" charset="utf-8"></script>
 <script type="text/javascript" src="js/jquery.easing.min.js" charset="utf-8"></script>
 <script src="js/mian.js" type="text/javascript" charset="utf-8"></script>
-
 </html>

@@ -29,6 +29,17 @@ $(function() {
             nextElement: $('#u-prev')
         });
     });
+$(function() {
+        $('#news-banner').marquee({
+            auto: true,
+            interval: 5000 ,
+            speed: 500,
+            showNum: 1,
+            stepLen: 1,
+            prevElement: $('#u-next'),
+            nextElement: $('#u-prev')
+        });
+    });
 // marquee
 $(function() {
     $('#expert-marquee').marquee({

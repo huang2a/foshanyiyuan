@@ -1,0 +1,113 @@
+.l-news-mgbottom{
+	margin-bottom: 14px;
+}
+.l-news-mgr14{
+	margin-left: 14px;
+}
+.l-news-banner{
+	position: relative;
+	width: 356px;
+	margin-right: 14px;
+	padding:12px 8px;
+	background: #fff;
+	&:hover .u-prev {
+	  	background: url(../../images/icon-prev.png) rgba(0, 0, 0, 0.5) left center no-repeat;
+	  }
+	&:hover .u-next {
+		background: url(../../images/icon-next.png) rgba(0, 0, 0, 0.5) left center no-repeat;
+	}
+	.u-prev {
+	  position: absolute;
+	  top: 94px;
+	  left: 8px;
+	  width: 26px;
+	  height: 60px;
+	  background: url(../../images/icon-prev.png) left center no-repeat;
+	  text-indent: -9999px;
+	  overflow: hidden;
+	  text-align: left;
+	}
+	.u-next {
+	  position: absolute;
+	  top: 94px;
+	  right: 8px;
+	  width: 26px;
+	  height: 60px;
+	  background: url(../../images/icon-next.png) right center no-repeat;
+	  text-indent: -9999px;
+	  overflow: hidden;
+	  text-align: left;
+	}
+	p{
+		display: block;
+		width: 346px;
+		height: 28px;
+		line-height: 28px;
+		padding: 5px;
+		text-align: center;
+		color: #d5d5d5;
+		background: #2d2d2d;
+		.ellipsis();
+	}
+}
+.news-banner-box{
+	width: 356px;
+}
+.l-news-small{
+	width: 300px;
+  	padding: 0 12px;
+	background: #fff;
+}
+.l-news-special{
+	width: 252px;
+	padding: 0 12px;
+	background: #fff;
+	overflow: hidden;
+	.u-special-lits{
+		margin: 4px 0;
+	}
+	li{
+		padding-left:14px;
+		.centered-line(28px);
+		.ellipsis();
+	}
+}
+.l-news-page3{
+	padding:0 12px;
+	background: #fff;
+}
+.news-features-list{
+	li{
+		float: left;
+		width: 219px;
+		height: 252px;
+		margin: 14px 14px 14px 0;
+		padding-right: 13px;
+		border-right: #ddd solid 1px;
+		overflow: hidden;
+		a{
+			.hover-link();
+			&:hover{
+				color: #7DA70D;
+			}
+		}
+	}
+	.features-tit{
+		font-weight: 600px;
+		font-size: 16px;
+		color: #373737;
+		text-align: left;
+		.centered-line(32px);
+		.ellipsis();
+	}
+	.features-img{
+		max-width: 100%;
+		margin: 10px 0 6px 0;
+	}
+	.features-info{
+		font-size: 14px;
+		color: #818181;
+		line-height: 28px;
+		text-indent: 28px;
+	}
+}
