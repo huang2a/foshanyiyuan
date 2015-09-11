@@ -405,7 +405,7 @@ textarea:-ms-input-placeholder {
   font-size: 18px;
 }
 .fontz16 {
-  font-size: 14px;
+  font-size: 16px;
 }
 .fontz14 {
   font-size: 14px;
@@ -2314,4 +2314,206 @@ textarea:-ms-input-placeholder {
 }
 .l-hotfeatures-newest .newest3 li a:hover {
   color: #7DA70D;
+}
+.register {
+  padding: 0px 12px;
+}
+.register table tr {
+  height: 50px;
+  line-height: 50px;
+}
+.register table tr td span {
+  display: inline-block;
+  width: 125px;
+  font-size: 18px;
+  color: #8c8b8b;
+}
+.register table tr td input {
+  display: inline-block;
+  vertical-align: middle;
+  width: 300px;
+  height: 30px;
+  line-height: 30px;
+  border: 1px solid #7ea70d;
+  font-size: 12px;
+  padding-left: 10px;
+  color: #8c8b8b;
+}
+.register table tr td em {
+  margin: 0px 3px;
+  font-style: normal !important;
+}
+.gender input {
+  width: 14px !important;
+  height: 14px !important;
+  border: none !important;
+}
+.gender label {
+  margin-right: 85px;
+  font-size: 18px;
+  color: #8c8b8b;
+}
+.deal {
+  text-align: center;
+  height: 24px;
+  line-height: 24px;
+}
+.deal input {
+  width: 14px !important;
+  height: 14px !important;
+  border: none !important;
+  margin-right: 10px;
+}
+.confirm {
+  display: block;
+  width: 200px !important;
+  height: 34px !important;
+  background: #98b93d;
+  border: none;
+  text-align: center;
+  margin: 0px 400px;
+  font-size: 16px !important;
+  color: #ffffff !important;
+}
+/*forget-key*/
+.forgetkey {
+  display: block;
+  width: 500px;
+  height: 256px;
+  margin: 50px auto;
+}
+.forgetkey table tr {
+  display: block;
+  height: 50px;
+  line-height: 50px;
+}
+.forgetkey table tr td {
+  width: 500px;
+}
+.forgetkey table tr td span {
+  display: inline-block;
+  width: 125px;
+  font-size: 18px;
+  color: #8c8b8b;
+}
+.forgetkey table tr td input {
+  display: inline-block;
+  vertical-align: middle;
+  width: 300px;
+  height: 30px;
+  line-height: 30px;
+  border: 1px solid #7ea70d;
+  font-size: 12px;
+  padding-left: 10px;
+  color: #8c8b8b;
+}
+.forgetkey table tr td .indentify {
+  height: 50px;
+  line-height: 50px;
+}
+.forgetkey table tr td .indentify span {
+  margin-left: 20px;
+  height: 34px;
+  display: inline-block;
+  vertical-align: middle;
+}
+.forgetkey table tr td .indentify input {
+  width: 270px !important;
+}
+.next {
+  display: block;
+  width: 200px !important;
+  height: 34px !important;
+  background: #98b93d;
+  border: none;
+  text-align: center;
+  margin: 0px 150px;
+  font-size: 16px !important;
+  color: #ffffff !important;
+}
+.foundkey {
+  display: block;
+  border: none;
+  width: 800px;
+  height: 300px;
+  margin: 50px auto;
+  text-align: center;
+}
+.foundtit {
+  display: block;
+  text-align: center;
+  margin-bottom: 40px;
+}
+.foundtit .titword {
+  display: inline-block;
+  width: 300px;
+  height: 30px;
+  line-height: 30px;
+  text-align: center;
+}
+.foundlink {
+  text-align: center;
+  text-decoration: underline;
+}
+.l-webserv {
+  display: inline-block;
+}
+.l-webserv-page {
+  background: #fff;
+  padding: 12px 0;
+  border-top: #7DA70D solid 1px;
+}
+.l-webserv-left {
+  display: inline-block;
+  width: 736px;
+  margin-bottom: 14px;
+  overflow: hidden;
+  margin-right: 12px;
+}
+.l-webserv-right {
+  display: inline-block;
+  width: 226px;
+  height: auto;
+  margin-bottom: 14px;
+  padding: 0 12px;
+  background: #fff;
+}
+.webserv-tit {
+  display: inline-block;
+  vertical-align: middle;
+  margin-right: 5px;
+}
+.webserv {
+  padding: 0px 28px;
+  margin-top: 15px;
+}
+.webserv td {
+  padding: 10px 0px;
+}
+.webserv td a {
+  display: inline-block;
+  height: 24px;
+  line-height: 24px;
+  vertical-align: middle;
+  padding-left: 64px;
+  background: url(../../images/icon-webser-next.png) left no-repeat;
+}
+.l-web-rightlist {
+  display: block;
+  border-top: 1px solid #dddddd;
+  padding-bottom: 5px;
+}
+.l-web-rightlist a {
+  width: 100% !important;
+}
+.l-pub-page {
+  margin-bottom: 18px;
+  padding: 0 12px;
+  background: #fff;
+  _height: auto;
+}
+.l-pub-page .l-pub-top {
+  display: block;
+  padding: 15px;
+  text-indent: 32px;
 }
