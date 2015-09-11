@@ -2506,3 +2506,14 @@ textarea:-ms-input-placeholder {
 .l-web-rightlist a {
   width: 100% !important;
 }
+.l-pub-page {
+  margin-bottom: 18px;
+  padding: 0 12px;
+  background: #fff;
+  _height: auto;
+}
+.l-pub-page .l-pub-top {
+  display: block;
+  padding: 15px;
+  text-indent: 32px;
+}
