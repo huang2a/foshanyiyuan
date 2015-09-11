@@ -2455,3 +2455,54 @@ textarea:-ms-input-placeholder {
   text-align: center;
   text-decoration: underline;
 }
+.l-webserv {
+  display: inline-block;
+}
+.l-webserv-page {
+  background: #fff;
+  padding: 12px 0;
+  border-top: #7DA70D solid 1px;
+}
+.l-webserv-left {
+  display: inline-block;
+  width: 736px;
+  margin-bottom: 14px;
+  overflow: hidden;
+  margin-right: 12px;
+}
+.l-webserv-right {
+  display: inline-block;
+  width: 226px;
+  height: auto;
+  margin-bottom: 14px;
+  padding: 0 12px;
+  background: #fff;
+}
+.webserv-tit {
+  display: inline-block;
+  vertical-align: middle;
+  margin-right: 5px;
+}
+.webserv {
+  padding: 0px 28px;
+  margin-top: 15px;
+}
+.webserv td {
+  padding: 10px 0px;
+}
+.webserv td a {
+  display: inline-block;
+  height: 24px;
+  line-height: 24px;
+  vertical-align: middle;
+  padding-left: 64px;
+  background: url(../../images/icon-webser-next.png) left no-repeat;
+}
+.l-web-rightlist {
+  display: block;
+  border-top: 1px solid #dddddd;
+  padding-bottom: 5px;
+}
+.l-web-rightlist a {
+  width: 100% !important;
+}
