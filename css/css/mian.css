@@ -2376,27 +2376,27 @@ textarea:-ms-input-placeholder {
   color: #ffffff !important;
 }
 /*forget-key*/
-.forgerkey {
+.forgetkey {
   display: block;
   width: 500px;
   height: 256px;
   margin: 50px auto;
 }
-.forgerkey table tr {
+.forgetkey table tr {
   display: block;
   height: 50px;
   line-height: 50px;
 }
-.forgerkey table tr td {
+.forgetkey table tr td {
   width: 500px;
 }
-.forgerkey table tr td span {
+.forgetkey table tr td span {
   display: inline-block;
   width: 125px;
   font-size: 18px;
   color: #8c8b8b;
 }
-.forgerkey table tr td input {
+.forgetkey table tr td input {
   display: inline-block;
   vertical-align: middle;
   width: 300px;
@@ -2407,17 +2407,17 @@ textarea:-ms-input-placeholder {
   padding-left: 10px;
   color: #8c8b8b;
 }
-.forgerkey table tr td .indentify {
+.forgetkey table tr td .indentify {
   height: 50px;
   line-height: 50px;
 }
-.forgerkey table tr td .indentify span {
+.forgetkey table tr td .indentify span {
   margin-left: 20px;
   height: 34px;
   display: inline-block;
   vertical-align: middle;
 }
-.forgerkey table tr td .indentify input {
+.forgetkey table tr td .indentify input {
   width: 270px !important;
 }
 .next {
@@ -2433,6 +2433,25 @@ textarea:-ms-input-placeholder {
 }
 .foundkey {
   display: block;
-  height: 110px;
-  line-height: 110px;
+  border: none;
+  width: 800px;
+  height: 300px;
+  margin: 50px auto;
+  text-align: center;
+}
+.foundtit {
+  display: block;
+  text-align: center;
+  margin-bottom: 40px;
+}
+.foundtit .titword {
+  display: inline-block;
+  width: 300px;
+  height: 30px;
+  line-height: 30px;
+  text-align: center;
+}
+.foundlink {
+  text-align: center;
+  text-decoration: underline;
 }
