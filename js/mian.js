@@ -43,7 +43,7 @@ $(function() {
 // marquee
 $(function() {
     $('#expert-marquee').marquee({
-      auto: true,
+      auto: false,
       interval: 5000,
       speed: 500,
       showNum: 3,
