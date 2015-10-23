@@ -33,6 +33,19 @@
 .border-none{
 	border:none;
 }
+.l-exper-video{
+	width:510px;
+	height: 354px;
+	padding:14px;
+	background: #fff;
+}
+.l-exper-videolist{
+    padding: 0 12px;
+    width: 238px;
+    height: 382px;
+    background: #fff;
+    overflow: hidden;
+}
 .l-expert-top{
 	margin-bottom: 28px;
 	.expert-tit{
@@ -89,20 +102,27 @@
 		float: left;
 		height: 62px;
 		line-height: 62px;
-		a{
+		.title{
 			padding: 0 10px 0 24px;
 			font-size: 18px;
 			color: #7DA70D;
 		}
-		span{
-			font-size: 16px;
-			color: #818181;
+		a{
+			display: inline-block;
+			height: 28px;
+			margin-right: 10px;
+    		line-height: 26px;
+			padding: 0 10px;
+			font-size: 14px;
+			color: #fff;
+			text-align: center;
+			background: #7DA70D;
 		}
 	}
 }
 .expert-list-info{
 	float: left;
-	width: 179px;
+	width: 174px;
 	height: 258px;
 	padding: 12px;
 	border: #ddd dashed 1px;
@@ -194,4 +214,65 @@
 	color:#7DA70D;
 	background: url(../../word/expert-list-titbg.gif) left center no-repeat;
 	.centered-line(48px);
+}
+
+.l-expert-filter{
+	width: 980px;
+	margin-bottom: 18px;
+	padding: 12px 10px;
+	background: #fff;
+	border:#ddd  solid 1px;
+	.ks,.time,.name{
+		margin: 10px 0;
+		padding: 4px 0 0 34px;
+	}
+	.title{
+		float: left;
+	    padding: 0 20px 0 0;
+		color:#7DA70D;
+		font-size: 18px;
+	}
+	.pull-down{
+		float: left;
+		margin-left: 36px;
+	}
+	.selectw{
+		border:#ddd  solid 1px;
+		color:#7DA70D;
+		margin-right: 10px;
+		font-size: 16px;
+	}
+	.time-list{
+		float: left;
+		margin-left: 36px;
+		th,td{
+			border:solid #ddd 1px;
+			text-align: center;
+			font-size: 16px;
+		}
+		.on{
+			display:block;
+			height: 38px;
+			line-height: 38px;
+			background:#7DA70D;
+			color: #fff;
+		}
+	}
+	.name-input{
+		input{
+			float: left;
+			height: 24px;
+			border:#ddd solid 1px;
+		}
+		a{
+			display: inline-block;
+			margin-left: 24px;
+			height: 28px;
+			line-height: 28px;
+			background: #7DA70D;
+			text-align: center;
+			padding: 0 8px;
+			color: #fff;
+		}
+	}
 }

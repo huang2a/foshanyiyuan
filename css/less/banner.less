@@ -16,19 +16,21 @@
 	}
 	.u-prev{
 		position: absolute;
-		top: 110px;
+		top: 50%;
 		left: 14px;
 		width: 26px;
 		height: 60px;
+		margin-top: -30px;
 		background: url(../../images/icon-prev.png) left center no-repeat;
 		.hide-text();
 	}
 	.u-next{
 		position: absolute;
-		top: 110px;
+		top: 50%;
 		right: 14px;
 		width: 26px;
 		height: 60px;
+		margin-top: -30px;
 		background: url(../../images/icon-next.png) right center no-repeat;
 		.hide-text();
 	}
@@ -37,17 +39,21 @@
 	width: 447px;
 	li{
 		float: left;
+		position: relative;
 		p{
 			display: block;
+			position: absolute;
+			bottom: 0;
+			left: 0;
 			width: 437px;
-			height: 60px;
-			line-height: 18px;
+			height: 38px;
+			line-height: 20px;
 			padding: 5px;
 			text-align: left;
 			color: #fff;
-			background: #7da70d;
 			font-size: 16px;
-			.ellipsis(3);
+			.rgba-background(rgba(125, 167, 13, 0.6));
+			.ellipsis(2);
 		}
 	}
 
