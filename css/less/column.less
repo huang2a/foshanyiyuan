@@ -191,7 +191,9 @@
 	.expert-speciality{
 		font-size: 14px;
 		font-weight: 100;
-		.centered-line(20px);
+		height: 58px;
+		line-height: 20px;
+		overflow: hidden;
 	}
 }
 .l-mian-rain,.l-mian-nurse{
@@ -340,6 +342,10 @@
 					text-align: center;
 					overflow: hidden;
 					white-space: nowrap;
+					.hover-link();
+					&:hover{
+						color: #ee6d68;
+					}
 				}
 			}
 		}
