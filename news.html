@@ -111,7 +111,12 @@
                             <div class="radius" style="top:-2px;"></div>
                             <div class="radius" style="top:31px;"></div>
                             <div class="searchMenu">
-                                <div class="searchSelected icon-drop-down" id="searchSelected">标题</div>
+                                <select class="searchSelected">
+                                    <option>标题</option>
+                                    <option>全文</option>
+                                    <option>作者</option>
+                                </select>
+                                <!--<div class="searchSelected icon-drop-down" id="searchSelected">标题</div>
                                 <div style="display:none;" class="searchTab" id="searchTab">
                                     <div class="radius" style="top:259px;"></div>
                                     <div class="radius" style="top:259px;left:59px;"></div>
@@ -120,7 +125,7 @@
                                         <li>全文</li>
                                         <li>作者</li>
                                     </ul>
-                                </div>
+                                </div>-->
                             </div>
                             <input name="w" type="text" x-webkit-speech x-webkit-grammar=”builtin:search />
                         </div>
