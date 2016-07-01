@@ -43,11 +43,11 @@ $(function() {
 // marquee
 $(function() {
     $('#expert-marquee').marquee({
-      auto: false,
-      interval: 5000,
+      auto: true,
+      interval: 3000,
       speed: 500,
       showNum: 3,
-      stepLen: 1,
+      stepLen: 3,
       type: 'vertical',
       prevElement: $('#expert-next'),
       nextElement: $('#expert-prev')
